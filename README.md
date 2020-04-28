@@ -31,10 +31,10 @@ node src/transfer.js
 #### Get the latest block number
 
 Params
->String - lbr链地址，0x36aa307a4157653eafa47f327b11963ccf174ed4<br>
+>String - LBR CHAIN ADDRESS，0x36aa307a4157653eafa47f327b11963ccf174ed4<br>
 
 Returns
->String - 16进制区块号
+>String - Hexadecimal block number
 
 Example
 ```
