@@ -28,7 +28,7 @@ node src/transfer.js
 -[obtain transaction information of specified wallet and nonce] (ා obtain transaction information of specified wallet and nonce)
 -[transfer data analysis] (ා transfer data analysis)
 
-#### 获取最新区块号
+#### Get the latest block number
 
 Params
 >String - lbr链地址，0x36aa307a4157653eafa47f327b11963ccf174ed4<br>
@@ -45,7 +45,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"scs_getBlockNumber","params":["0
 {
 	"jsonrpc": "2.0",
 	"id": 101,
-	"result": "0xbf869"  // 16进制区块号，10进制为784489
+	"result": "0xbf869"  // Hexadecimal block number, decimal 784489
 }
 ```
 
